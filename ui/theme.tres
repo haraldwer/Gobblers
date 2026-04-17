@@ -1,0 +1,7 @@
+[gd_resource type="Theme" format=3 uid="uid://cyufef5kkqp28"]
+
+[ext_resource type="FontFile" uid="uid://78ln0ypbrusl" path="res://ui/Super Kidpop.ttf" id="1_rqugq"]
+
+[resource]
+default_font = ExtResource("1_rqugq")
+default_font_size = 26

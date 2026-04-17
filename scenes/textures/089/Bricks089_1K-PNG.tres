@@ -1,19 +1,22 @@
-[gd_resource type="StandardMaterial3D" load_steps=6 format=3 uid="acg_ut0n2l9r"]
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dwgru68ry0gnf"]
 
-[ext_resource type="Texture2D" uid="uid://acg_2645q0dk" id="Color" path="./Bricks089_1K-PNG_Color.png"]
-[ext_resource type="Texture2D" uid="uid://acg_xbkojsm1" id="AmbientOcclusion" path="./Bricks089_1K-PNG_AmbientOcclusion.png"]
-[ext_resource type="Texture2D" uid="uid://acg_mbtargso" id="Displacement" path="./Bricks089_1K-PNG_Displacement.png"]
-[ext_resource type="Texture2D" uid="uid://acg_tslyu32e" id="Roughness" path="./Bricks089_1K-PNG_Roughness.png"]
-[ext_resource type="Texture2D" uid="uid://acg_hvmtp6z2" id="NormalGL" path="./Bricks089_1K-PNG_NormalGL.png"]
+[ext_resource type="Texture2D" uid="uid://6vfwdojlrt0d" path="res://scenes/textures/089/Bricks089_1K-PNG_AmbientOcclusion.png" id="AmbientOcclusion"]
+[ext_resource type="Texture2D" uid="uid://dt7jh08vpxx7h" path="res://scenes/textures/089/Bricks089_1K-PNG_Color.png" id="Color"]
+[ext_resource type="Texture2D" uid="uid://bvudqw0hidbq8" path="res://scenes/textures/089/Bricks089_1K-PNG_Displacement.png" id="Displacement"]
+[ext_resource type="Texture2D" uid="uid://bufpsrixk6s6j" path="res://scenes/textures/089/Bricks089_1K-PNG_NormalGL.png" id="NormalGL"]
+[ext_resource type="Texture2D" uid="uid://com53jwb7tcm8" path="res://scenes/textures/089/Bricks089_1K-PNG_Roughness.png" id="Roughness"]
+
 [resource]
 albedo_texture = ExtResource("Color")
+roughness_texture = ExtResource("Roughness")
+roughness_texture_channel = 4
+normal_enabled = true
+normal_texture = ExtResource("NormalGL")
 ao_enabled = true
 ao_texture = ExtResource("AmbientOcclusion")
 ao_texture_channel = 4
-roughness_texture = ExtResource("Roughness")
-roughness_texture_channel = 4
-normal_texture = ExtResource("NormalGL")
-normal_enabled = true
-heightmap_texture = ExtResource("Displacement")
-heightmap_scale = 1.0
 heightmap_enabled = true
+heightmap_scale = 1.0
+heightmap_texture = ExtResource("Displacement")
+uv1_triplanar = true
+uv1_world_triplanar = true

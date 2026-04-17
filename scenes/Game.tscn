@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://brnpw6druf3sq"]
+
+[ext_resource type="PackedScene" uid="uid://cm3av8lrafb67" path="res://scenes/World.tscn" id="2_qbsmt"]
+
+[node name="Game" type="Node3D" unique_id=1198900701]
+
+[node name="SubViewport" type="SubViewport" parent="." unique_id=1792732693]
+msaa_3d = 2
+audio_listener_enable_3d = true
+size = Vector2i(853, 853)
+render_target_update_mode = 4
+
+[node name="World" parent="SubViewport" unique_id=511579984 instance=ExtResource("2_qbsmt")]

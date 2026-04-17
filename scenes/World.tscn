@@ -6,6 +6,20 @@
 [ext_resource type="PackedScene" uid="uid://bvdx4ia5tqeem" path="res://scenes/Corridor.tscn" id="4_1lgw5"]
 
 [sub_resource type="Environment" id="Environment_kqs1s"]
+tonemap_mode = 4
+tonemap_exposure = 3.0
+ssao_enabled = true
+ssao_radius = 67.7
+ssao_intensity = 76.95
+fog_enabled = true
+fog_mode = 1
+fog_light_color = Color(0, 0, 0, 1)
+fog_density = 1.0
+fog_depth_curve = 0.153893
+fog_depth_begin = 24.4
+fog_depth_end = 180.7
+adjustment_enabled = true
+adjustment_contrast = 1.02
 
 [node name="World" type="Node3D" unique_id=511579984]
 

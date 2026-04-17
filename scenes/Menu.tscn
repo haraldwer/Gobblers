@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://kl6uqbe7oce3"]
+
+[ext_resource type="FontFile" uid="uid://78ln0ypbrusl" path="res://ui/Super Kidpop.ttf" id="1_upctu"]
+[ext_resource type="Theme" uid="uid://cyufef5kkqp28" path="res://ui/theme.tres" id="2_11y2r"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_o0tnf"]
+font = ExtResource("1_upctu")
+font_size = 116
+font_color = Color(0.73722994, 0.78, 0.7254, 1)
+outline_size = 81
+outline_color = Color(0.2901961, 0.78039217, 0.15686275, 1)
+shadow_size = 115
+shadow_color = Color(0.13743335, 0.28, 0.098000005, 1)
+shadow_offset = Vector2(1.9, 22.025)
+
+[node name="Menu" type="Node3D" unique_id=1521541957]
+
+[node name="PanelContainer" type="PanelContainer" parent="." unique_id=1594663643]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -145.5
+offset_top = -124.0
+offset_right = 145.5
+offset_bottom = 124.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VFlowContainer" type="VFlowContainer" parent="PanelContainer" unique_id=877991924]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="PanelContainer/VFlowContainer" unique_id=1867930097]
+layout_mode = 2
+size_flags_vertical = 6
+text = "GOBBLERS"
+label_settings = SubResource("LabelSettings_o0tnf")
+
+[node name="Button" type="Button" parent="PanelContainer/VFlowContainer" unique_id=713292939]
+layout_mode = 2
+theme = ExtResource("2_11y2r")
+text = "Play"

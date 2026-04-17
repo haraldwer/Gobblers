@@ -1,14 +1,14 @@
 [gd_scene format=3 uid="uid://ckx2gplrsb0f2"]
 
-[ext_resource type="Material" path="res://scenes/textures/60/Rock060_1K-PNG.tres" id="1_35ey1"]
-[ext_resource type="Material" path="res://scenes/textures/075A/Bricks075A_1K-PNG.tres" id="2_cv7il"]
-[ext_resource type="Material" path="res://scenes/textures/142/PavingStones142_1K-PNG.tres" id="3_g6s1k"]
-[ext_resource type="Material" path="res://scenes/textures/006 wood/Wood006_1K-PNG.tres" id="4_xcfrh"]
-[ext_resource type="Material" path="res://scenes/textures/041B metal/Metal041B_1K-PNG.tres" id="5_m2m86"]
+[ext_resource type="Material" uid="uid://btsr1i5vybag2" path="res://scenes/textures/60/Rock060_1K-PNG.tres" id="1_35ey1"]
+[ext_resource type="Material" uid="uid://b5m0i51cfjy8q" path="res://scenes/textures/075A/Bricks075A_1K-PNG.tres" id="2_cv7il"]
+[ext_resource type="Material" uid="uid://dmgl24r0dqtpl" path="res://scenes/textures/142/PavingStones142_1K-PNG.tres" id="3_g6s1k"]
+[ext_resource type="Material" uid="uid://b3i6sbhn3eflr" path="res://scenes/textures/006 wood/Wood006_1K-PNG.tres" id="4_xcfrh"]
+[ext_resource type="Material" uid="uid://bpuk4ol7l0v2c" path="res://scenes/textures/041B metal/Metal041B_1K-PNG.tres" id="5_m2m86"]
 [ext_resource type="Texture2D" uid="uid://cwtvlux8xy4ay" path="res://scenes/textures/006 wood/Wood006_1K-PNG_Color.png" id="6_y3cqg"]
-[ext_resource type="Material" path="res://scenes/textures/011/Rocks011_1K-PNG.tres" id="7_fcrep"]
-[ext_resource type="Material" path="res://scenes/textures/034/Metal034_1K-PNG.tres" id="8_g6s1k"]
-[ext_resource type="Material" path="res://scenes/textures/048A/Metal048A_1K-PNG.tres" id="9_xcfrh"]
+[ext_resource type="Material" uid="uid://cvdajw7j6t8x0" path="res://scenes/textures/011/Rocks011_1K-PNG.tres" id="7_fcrep"]
+[ext_resource type="Material" uid="uid://55nuiyxms5fr" path="res://scenes/textures/034/Metal034_1K-PNG.tres" id="8_g6s1k"]
+[ext_resource type="Material" uid="uid://dtbc7axv1gqjw" path="res://scenes/textures/048A/Metal048A_1K-PNG.tres" id="9_xcfrh"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fiwv2"]
 albedo_texture = ExtResource("6_y3cqg")
@@ -156,3 +156,25 @@ material_override = ExtResource("9_xcfrh")
 [node name="CSGCylinder3D7" type="CSGCylinder3D" parent="." unique_id=316436953]
 transform = Transform3D(0.11789747, 0.054892614, -0.78190917, 0.6178499, -0.035554733, 0.14641389, -0.023555506, -0.6578415, -0.07315858, -0.89791197, 3.8681602, -22.296097)
 material_override = ExtResource("8_g6s1k")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=2144935980]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.393206, 8.069697, -22.343876)
+light_color = Color(1, 0.77066666, 0.57, 1)
+light_bake_mode = 1
+shadow_enabled = true
+omni_range = 15.721
+
+[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=1411525668]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.836285, 8.069697, -22.343876)
+light_color = Color(1, 0.77066666, 0.57, 1)
+light_bake_mode = 1
+shadow_enabled = true
+omni_range = 15.721
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=1989859171]
+transform = Transform3D(1, 0, 0, 0, 0.19214512, 0.9813665, 0, -0.9813665, 0.19214512, -1.3731263, 10.054161, -20.708662)
+light_color = Color(1, 0.9841667, 0.81, 1)
+light_energy = 3.251
+spot_range = 11.713
+spot_attenuation = 0.52
+spot_angle = 32.575058

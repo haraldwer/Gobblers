@@ -1,8 +1,11 @@
 [gd_scene format=3 uid="uid://bh5bmcphwka5d"]
 
+[ext_resource type="Script" uid="uid://b65tr4wwnj46m" path="res://player/combat.gd" id="2_g1dw6"]
 [ext_resource type="Script" uid="uid://ujea0w7b4txq" path="res://player/movement.gd" id="2_rkbax"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_rkbax"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_rkbax"]
 
 [node name="CharacterBody3D" type="CharacterBody3D" unique_id=114890276 groups=["Player"]]
 script = ExtResource("2_rkbax")
@@ -15,7 +18,15 @@ shape = SubResource("CapsuleShape3D_rkbax")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.513038, 0)
 fov = 95.8
 
+[node name="Area3D" type="Area3D" parent="Camera3D" unique_id=1745695141]
+monitorable = false
+
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=200478794]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.4728042, 0)
 omni_range = 217.777
 omni_attenuation = 0.687
+
+[node name="Node" type="Node3D" parent="." unique_id=625407100]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.3354, -0.92317295)
+script = ExtResource("2_g1dw6")
+query_shape = SubResource("SphereShape3D_rkbax")

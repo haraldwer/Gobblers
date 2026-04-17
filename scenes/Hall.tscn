@@ -1,10 +1,10 @@
 [gd_scene format=3 uid="uid://bcea3brbhfxg3"]
 
-[ext_resource type="Material" path="res://scenes/textures/075A/Bricks075A_1K-PNG.tres" id="1_utfsg"]
-[ext_resource type="Material" path="res://scenes/textures/150/PavingStones150_1K-PNG.tres" id="2_bals2"]
-[ext_resource type="Material" path="res://scenes/textures/062/Rock062_1K-PNG.tres" id="3_8jaf3"]
-[ext_resource type="Material" path="res://scenes/textures/61/Rock061_1K-PNG.tres" id="3_bals2"]
-[ext_resource type="Material" path="res://scenes/textures/011/Rocks011_1K-PNG.tres" id="4_1a26t"]
+[ext_resource type="Material" uid="uid://b5m0i51cfjy8q" path="res://scenes/textures/075A/Bricks075A_1K-PNG.tres" id="1_utfsg"]
+[ext_resource type="Material" uid="uid://ditsmcitxvqcj" path="res://scenes/textures/150/PavingStones150_1K-PNG.tres" id="2_bals2"]
+[ext_resource type="Material" uid="uid://1pm1bqr3wic4" path="res://scenes/textures/062/Rock062_1K-PNG.tres" id="3_8jaf3"]
+[ext_resource type="Material" uid="uid://3nfs3xwpysra" path="res://scenes/textures/61/Rock061_1K-PNG.tres" id="3_bals2"]
+[ext_resource type="Material" uid="uid://cvdajw7j6t8x0" path="res://scenes/textures/011/Rocks011_1K-PNG.tres" id="4_1a26t"]
 
 [node name="Hall" type="Node3D" unique_id=641597358]
 
