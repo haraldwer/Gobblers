@@ -10,12 +10,12 @@
 [node name="World" type="Node3D" unique_id=511579984]
 
 [node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=244673196]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.408432, 7.6293945e-06, 0.1913929)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.408432, 7.6293945e-06, -206.15746)
 use_collision = true
 size = Vector3(95.78705, 1, 43.15973)
 
 [node name="CharacterBody3D" parent="." unique_id=114890276 instance=ExtResource("1_kqs1s")]
-transform = Transform3D(1.192488e-08, 0, -0.99999994, 0, 1, 0, 0.99999994, 0, 1.192488e-08, 163.19925, 14.082363, 61.401634)
+transform = Transform3D(1.192488e-08, 0, -0.99999994, 0, 1, 0, 0.99999994, 0, 1.192488e-08, -237.38281, 28.22031, 61.401634)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1648415794]
 environment = SubResource("Environment_kqs1s")

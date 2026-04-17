@@ -1,93 +1,158 @@
 [gd_scene format=3 uid="uid://ckx2gplrsb0f2"]
 
+[ext_resource type="Material" path="res://scenes/textures/60/Rock060_1K-PNG.tres" id="1_35ey1"]
+[ext_resource type="Material" path="res://scenes/textures/075A/Bricks075A_1K-PNG.tres" id="2_cv7il"]
+[ext_resource type="Material" path="res://scenes/textures/142/PavingStones142_1K-PNG.tres" id="3_g6s1k"]
+[ext_resource type="Material" path="res://scenes/textures/006 wood/Wood006_1K-PNG.tres" id="4_xcfrh"]
+[ext_resource type="Material" path="res://scenes/textures/041B metal/Metal041B_1K-PNG.tres" id="5_m2m86"]
+[ext_resource type="Texture2D" uid="uid://cwtvlux8xy4ay" path="res://scenes/textures/006 wood/Wood006_1K-PNG_Color.png" id="6_y3cqg"]
+[ext_resource type="Material" path="res://scenes/textures/011/Rocks011_1K-PNG.tres" id="7_fcrep"]
+[ext_resource type="Material" path="res://scenes/textures/034/Metal034_1K-PNG.tres" id="8_g6s1k"]
+[ext_resource type="Material" path="res://scenes/textures/048A/Metal048A_1K-PNG.tres" id="9_xcfrh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_fiwv2"]
+albedo_texture = ExtResource("6_y3cqg")
+
 [node name="TreasureRoom" type="Node3D" unique_id=413560569]
 
 [node name="floor" type="CSGBox3D" parent="." unique_id=480108313]
 transform = Transform3D(42.157505, 0, 0, 0, 0.6923442, 0, 0, 0, 36.223877, -0.21330386, 2.6503296, -11.117422)
+material_override = ExtResource("1_35ey1")
 use_collision = true
 
 [node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=1246243770]
-transform = Transform3D(-1.4530766e-14, -2.7813483e-08, -20.755424, -8.849278, -2.7813476e-08, 0, -3.8681435e-07, 0.6362982, -9.0724853e-07, -0.34061193, 12.258898, 6.668972)
+transform = Transform3D(-1.4530766e-14, -2.7813483e-08, -20.755424, -8.849278, -2.7813476e-08, 0, -3.8681435e-07, 0.6362982, -9.0724853e-07, -0.34061193, 12.258898, 1.1249199)
+material_override = ExtResource("2_cv7il")
 use_collision = true
 
 [node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=189573523]
-transform = Transform3D(-1.563546e-14, -2.7813483e-08, -8.273128, -9.522043, -2.7813476e-08, 0, -4.1622175e-07, 0.6362982, -3.6163e-07, -7.183846, 6.915268, 6.668972)
+transform = Transform3D(-1.563546e-14, -2.7813483e-08, -8.273128, -9.522043, -2.7813476e-08, 0, -4.1622175e-07, 0.6362982, -3.6163e-07, -7.183846, 3.2801342, 1.1249199)
+material_override = ExtResource("2_cv7il")
 use_collision = true
 
 [node name="CSGBox3D5" type="CSGBox3D" parent="." unique_id=1165535572]
-transform = Transform3D(-1.563546e-14, -2.7813483e-08, -8.040751, -9.522043, -2.7813476e-08, 0, -4.1622175e-07, 0.6362982, -3.514725e-07, 6.469524, 6.915268, 6.668972)
+transform = Transform3D(-1.563546e-14, -2.7813483e-08, -8.040751, -9.522043, -2.7813476e-08, 0, -4.1622175e-07, 0.6362982, -3.514725e-07, 6.469524, 3.2801342, 1.1249199)
+material_override = ExtResource("2_cv7il")
 use_collision = true
 
 [node name="CSGBox3D8" type="CSGBox3D" parent="." unique_id=1689753650]
 transform = Transform3D(-2.4453933e-14, -2.7813485e-08, -26.06388, -14.892518, -2.7813483e-08, 0, -6.5097277e-07, 0.6362983, -1.1392887e-06, -0.5970175, 9.363505, -28.896788)
+material_override = ExtResource("2_cv7il")
 use_collision = true
 
 [node name="CSGBox3D6" type="CSGBox3D" parent="." unique_id=210221153]
-transform = Transform3D(-5.664646e-07, 0.41745678, -6.121572, -15.40977, -2.169822e-08, -1.7569466e-21, -3.644602e-07, 0.2685894, 9.514492, 11.003287, 10.010135, 3.3748293)
+transform = Transform3D(-3.722748e-07, 0.2743484, -9.42875, -15.40977, -2.1698222e-08, 2.5857248e-14, -5.613598e-07, 0.41369477, 6.252829, 10.003911, 10.010135, -1.9285116)
+material_override = ExtResource("2_cv7il")
 use_collision = true
 
 [node name="CSGBox3D10" type="CSGBox3D" parent="." unique_id=1655934141]
 transform = Transform3D(-5.664646e-07, 0.41745678, -6.121572, -15.40977, -2.169822e-08, -1.7569466e-21, -3.644602e-07, 0.2685894, 9.514492, -15.161205, 10.010135, -25.316942)
+material_override = ExtResource("2_cv7il")
 use_collision = true
 
 [node name="CSGBox3D7" type="CSGBox3D" parent="." unique_id=110144647]
-transform = Transform3D(-4.6383437e-07, 0.54516345, 12.61922, -15.40977, -3.460584e-08, -6.916018e-15, 4.8843765e-07, -0.57408077, 11.983571, -14.228995, 10.010135, 1.9998837)
+transform = Transform3D(-4.6383437e-07, 0.54516345, 12.61922, -15.40977, -3.460584e-08, -6.916018e-15, 4.8843765e-07, -0.57408077, 11.983571, -12.798975, 10.010135, -4.4036465)
+material_override = ExtResource("2_cv7il")
 use_collision = true
 
 [node name="CSGBox3D11" type="CSGBox3D" parent="." unique_id=1913472133]
 transform = Transform3D(-6.694746e-07, 0.97958493, -3.1535563, -15.409768, -4.3081723e-08, -4.7758465e-14, -7.427756e-08, 0.10868386, 28.423532, -16.914837, 10.010135, -12.932253)
+material_override = ExtResource("2_cv7il")
 use_collision = true
 
 [node name="CSGBox3D12" type="CSGBox3D" parent="." unique_id=1490411461]
 transform = Transform3D(-6.335974e-07, 0.89232343, -11.875038, -15.409768, -4.146619e-08, -6.262325e-14, -2.2862162e-07, 0.32197794, 32.91027, 15.939702, 10.010135, -10.534406)
+material_override = ExtResource("2_cv7il")
 use_collision = true
 
 [node name="CSGBox3D9" type="CSGBox3D" parent="." unique_id=1284057077]
 transform = Transform3D(-4.6383437e-07, 0.54516345, 12.61922, -15.40977, -3.460584e-08, -6.916018e-15, 4.8843765e-07, -0.57408077, 11.983571, 15.886846, 10.010135, -24.438065)
+material_override = ExtResource("2_cv7il")
 use_collision = true
 
 [node name="Roof" type="CSGBox3D" parent="." unique_id=27863436]
 transform = Transform3D(42.157505, 0, 0, 0, 0.6923442, 0, 0, 0, 36.223877, -0.21330386, 15.428354, -11.117422)
+material_override = ExtResource("1_35ey1")
 use_collision = true
 
 [node name="Floorheight" type="CSGBox3D" parent="." unique_id=903900994]
 transform = Transform3D(15.012714, 0, 0, 0, 0.06547134, 0, 0, 0, 7.3443036, -0.44438565, 3.0014477, -21.737564)
+material_override = ExtResource("3_g6s1k")
 use_collision = true
 
 [node name="Boxbrown1" type="CSGBox3D" parent="." unique_id=1426963934]
 transform = Transform3D(3.8364758, 0, 0, 0, 0.67170674, 0, 0, 0, 2.551501, -0.8295683, 3.5132046, -22.56971)
+material_override = ExtResource("4_xcfrh")
 use_collision = true
 
 [node name="Boxsilvver" type="CSGBox3D" parent="." unique_id=539004784]
 transform = Transform3D(3.8996243, 0, 0, 0, 0.07216264, 0, 0, 0, 2.6775255, -0.8295683, 3.7430916, -22.56971)
+material_override = ExtResource("5_m2m86")
 use_collision = true
 
 [node name="Boxsilver1" type="CSGBox3D" parent="." unique_id=372114957]
 transform = Transform3D(3.8996243, 0, 0, 0, 0.1628016, 0, 0, 0, 2.5216062, -0.8295683, 3.0676804, -22.56971)
+material_override = ExtResource("5_m2m86")
 use_collision = true
 
 [node name="Boxsilver2" type="CSGBox3D" parent="." unique_id=387087363]
 transform = Transform3D(3.0655785, -0.02759106, 1.1486273, 0, 0.041610602, 2.1339836, -2.2837634, -0.037036482, 1.5418441, -2.563291, 3.9285536, -24.133043)
+material_override = ExtResource("5_m2m86")
 use_collision = true
 
 [node name="Boxbrown" type="CSGBox3D" parent="." unique_id=1496215761]
 transform = Transform3D(2.947627, -0.031374447, 1.1119992, 0, 0.04962291, 1.9699062, -2.1958933, -0.042115055, 1.4926769, -2.550147, 3.8878884, -24.115398)
+material_override = SubResource("StandardMaterial3D_fiwv2")
 use_collision = true
 
 [node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=1018921290]
 transform = Transform3D(1.3472537, 0, 0, 0, 2.0616188, 0, 0, 0, 1.4509039, -6.366214, 4.171331, -22.387257)
+material_override = ExtResource("7_fcrep")
 
 [node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=2053745336]
 transform = Transform3D(1.6304342, 0, 0, 0, 0.6027156, 0, 0, 0, 1.899243, -6.366214, 3.0931406, -22.387257)
+material_override = ExtResource("7_fcrep")
 
 [node name="CSGBox3D13" type="CSGBox3D" parent="." unique_id=488878524]
 transform = Transform3D(1.7879812, 0, 0, 0, 0.88132244, 0, 0, 0, 2.1956758, -6.366214, 5.412023, -22.387257)
+material_override = ExtResource("7_fcrep")
 
 [node name="CSGBox3D14" type="CSGBox3D" parent="." unique_id=915582731]
 transform = Transform3D(1.3472537, 0, 0, 0, 2.0616188, 0, 0, 0, 1.4509039, 4.042831, 4.171331, -22.387257)
+material_override = ExtResource("7_fcrep")
 
 [node name="CSGBox3D15" type="CSGBox3D" parent="." unique_id=2000119633]
 transform = Transform3D(1.6304342, 0, 0, 0, 0.6027156, 0, 0, 0, 1.899243, 4.042831, 3.0931406, -22.387257)
+material_override = ExtResource("7_fcrep")
 
 [node name="CSGBox3D16" type="CSGBox3D" parent="." unique_id=785475428]
 transform = Transform3D(1.7879812, 0, 0, 0, 0.88132244, 0, 0, 0, 2.1956758, 4.042831, 5.412023, -22.387257)
+material_override = ExtResource("7_fcrep")
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="." unique_id=273689438]
+transform = Transform3D(0.01842067, -0.5988527, -0.33756196, 0.61784977, -0.03555472, 0.14641389, -0.11880807, -0.27774838, 0.70907396, -0.70197105, 3.93572, -23.109495)
+material_override = ExtResource("8_g6s1k")
+
+[node name="CSGCylinder3D2" type="CSGCylinder3D" parent="." unique_id=160003788]
+transform = Transform3D(0.08351301, -0.32940602, -0.68446267, 0.61784977, -0.03555472, 0.14641389, -0.08648846, -0.5720667, 0.3850257, -1.4992445, 3.9932318, -22.920692)
+material_override = ExtResource("9_xcfrh")
+
+[node name="CSGCylinder3D3" type="CSGCylinder3D" parent="." unique_id=1255623930]
+transform = Transform3D(-0.11673826, -0.02569674, 0.78438246, 0.6178498, -0.035554722, 0.1464139, 0.028755117, 0.65962744, 0.038448602, -2.239778, 3.93572, -22.85721)
+material_override = ExtResource("8_g6s1k")
+
+[node name="CSGCylinder3D4" type="CSGCylinder3D" parent="." unique_id=1285800140]
+transform = Transform3D(-0.06578956, -0.6309215, 0.22346117, 0.6178498, -0.035554726, 0.14641389, -0.10063005, 0.19418228, 0.7528606, -1.961867, 3.7046652, -22.073814)
+material_override = ExtResource("9_xcfrh")
+
+[node name="CSGCylinder3D5" type="CSGCylinder3D" parent="." unique_id=900201920]
+transform = Transform3D(0.04914187, 0.6536116, -0.10225713, 0.6178498, -0.035554726, 0.14641389, 0.10972582, -0.09252329, -0.77863824, 0.054555863, 3.9932318, -22.001171)
+material_override = ExtResource("8_g6s1k")
+
+[node name="CSGCylinder3D6" type="CSGCylinder3D" parent="." unique_id=1702799037]
+transform = Transform3D(0.016814124, -0.60255, -0.3279527, 0.6178499, -0.035554726, 0.14641392, -0.119046055, -0.26963353, 0.71356934, 0.12657431, 4.1026235, -23.044899)
+material_override = ExtResource("9_xcfrh")
+
+[node name="CSGCylinder3D7" type="CSGCylinder3D" parent="." unique_id=316436953]
+transform = Transform3D(0.11789747, 0.054892614, -0.78190917, 0.6178499, -0.035554733, 0.14641389, -0.023555506, -0.6578415, -0.07315858, -0.89791197, 3.8681602, -22.296097)
+material_override = ExtResource("8_g6s1k")

@@ -1,19 +1,26 @@
 [gd_scene format=3 uid="uid://bvdx4ia5tqeem"]
 
+[ext_resource type="Material" path="res://scenes/textures/61/Rock061_1K-PNG.tres" id="1_b48a3"]
+[ext_resource type="Material" path="res://scenes/textures/60/Rock060_1K-PNG.tres" id="2_7ycg3"]
+
 [node name="Corridor" type="Node3D" unique_id=1232838882]
 
 [node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=772146577]
 transform = Transform3D(5.2942343, 0, 0, 0, 0.7011805, 0, 0, 0, 81.945625, -1.9069359, 6.3716726, 0)
+material_override = ExtResource("1_b48a3")
 use_collision = true
 
 [node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=1753631351]
 transform = Transform3D(5.292034, 0, 0, 0, 0.7011805, 0, 0, 0, 81.945625, -1.8214285, 2.0291429, 0)
+material_override = ExtResource("1_b48a3")
 use_collision = true
 
 [node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=1472668529]
 transform = Transform3D(-2.5023692e-07, 0.7095909, 0, -5.7247543, -3.101721e-08, 0, 0, 0, 81.945625, 0.80610514, 4.3302455, 0)
+material_override = ExtResource("2_7ycg3")
 use_collision = true
 
 [node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=754512893]
 transform = Transform3D(-2.5023692e-07, 0.7095909, 0, -5.7247543, -3.101721e-08, 0, 0, 0, 81.945625, -4.51, 4.3302455, 0)
+material_override = ExtResource("2_7ycg3")
 use_collision = true
