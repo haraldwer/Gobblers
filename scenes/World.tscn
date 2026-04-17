@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://cm3av8lrafb67"]
+
+[ext_resource type="PackedScene" uid="uid://bh5bmcphwka5d" path="res://player/player.tscn" id="1_kqs1s"]
+
+[sub_resource type="Environment" id="Environment_kqs1s"]
+
+[node name="World" type="Node3D" unique_id=511579984]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=244673196]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.12432861, 0, -1.8982544)
+use_collision = true
+size = Vector3(31.454956, 1, 18.778198)
+
+[node name="CharacterBody3D" parent="." unique_id=114890276 instance=ExtResource("1_kqs1s")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.9604816, 2.446167, -4.450913)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1648415794]
+environment = SubResource("Environment_kqs1s")
