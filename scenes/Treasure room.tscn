@@ -1,0 +1,75 @@
+[gd_scene format=3 uid="uid://ckx2gplrsb0f2"]
+
+[node name="TreasureRoom" type="Node3D" unique_id=413560569]
+
+[node name="floor" type="CSGBox3D" parent="." unique_id=480108313]
+transform = Transform3D(74.77315, 0, 0, 0, 1, 0, 0, 0, 56.929092, 0, 0, -11.5443)
+use_collision = true
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=1246243770]
+transform = Transform3D(-1.1290085e-14, -4.371139e-08, -36.8131, -6.8756957, -4.3711385e-08, 0, -3.0054625e-07, 1, -1.6091518e-06, -0.22580147, 15.613923, 16.408619)
+use_collision = true
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=189573523]
+transform = Transform3D(-2.2583362e-14, -4.371139e-08, -12.611476, -13.753336, -4.3711385e-08, 0, -6.011775e-07, 1, -5.512652e-07, -12.363382, 6.160142, 16.408619)
+use_collision = true
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="." unique_id=1165535572]
+transform = Transform3D(-2.2583362e-14, -4.371139e-08, -12.611476, -13.753336, -4.3711385e-08, 0, -6.011775e-07, 1, -5.512652e-07, 11.853075, 6.160142, 16.408619)
+use_collision = true
+
+[node name="CSGBox3D8" type="CSGBox3D" parent="." unique_id=1689753650]
+transform = Transform3D(-3.5320484e-14, -4.3711392e-08, -46.228504, -21.51028, -4.371139e-08, 0, -9.402444e-07, 1.0000001, -2.0207124e-06, -0.68057823, 9.696298, -39.48617)
+use_collision = true
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="." unique_id=210221153]
+transform = Transform3D(-8.181834e-07, 0.8409729, -6.8237834, -22.257381, -4.371138e-08, -1.9584874e-21, -5.2641474e-07, 0.54107726, 10.605908, 19.894438, 10.630269, 11.231579)
+use_collision = true
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="." unique_id=1655934141]
+transform = Transform3D(-8.181834e-07, 0.8409729, -6.8237834, -22.257381, -4.371138e-08, -1.9584874e-21, -5.2641474e-07, 0.54107726, 10.605908, -26.512516, 10.630269, -33.860123)
+use_collision = true
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="." unique_id=110144647]
+transform = Transform3D(-6.699476e-07, 1.0909866, 14.7722225, -22.257383, -6.925355e-08, -8.095981e-15, 7.054838e-07, -1.1488562, 14.028122, -24.859093, 10.630269, 9.070728)
+use_collision = true
+
+[node name="CSGBox3D11" type="CSGBox3D" parent="." unique_id=1913472133]
+transform = Transform3D(-9.66968e-07, 1.8079195, -4.6727805, -22.25738, -7.951153e-08, -7.0766086e-14, -1.0728415e-07, 0.20058668, 42.11655, -29.622864, 10.630269, -14.396471)
+use_collision = true
+
+[node name="CSGBox3D12" type="CSGBox3D" parent="." unique_id=1490411461]
+transform = Transform3D(-9.151479e-07, 1.7506056, -15.304411, -22.25738, -8.1350485e-08, -8.070811e-14, -3.302138e-07, 0.63167274, 42.41437, 28.649963, 10.630269, -10.628035)
+use_collision = true
+
+[node name="CSGBox3D9" type="CSGBox3D" parent="." unique_id=1284057077]
+transform = Transform3D(-6.699476e-07, 1.0909866, 14.7722225, -22.257383, -6.925355e-08, -8.095981e-15, 7.054838e-07, -1.1488562, 14.028122, 28.556213, 10.630269, -32.47889)
+use_collision = true
+
+[node name="Roof" type="CSGBox3D" parent="." unique_id=27863436]
+transform = Transform3D(74.77315, 0, 0, 0, 1, 0, 0, 0, 56.929092, 0, 18.456173, -11.5443)
+use_collision = true
+
+[node name="Floorheight" type="CSGBox3D" parent="." unique_id=903900994]
+transform = Transform3D(32.20938, 0, 0, 0, 1, 0, 0, 0, 12.083633, 0, 1.215704, -24.226406)
+use_collision = true
+
+[node name="Boxbrown1" type="CSGBox3D" parent="." unique_id=1426963934]
+transform = Transform3D(22.584805, 0, 0, 0, 5.597651, 0, 0, 0, 7.904883, -0.81181145, 3.9897566, -24.226406)
+use_collision = true
+
+[node name="Boxsilvver" type="CSGBox3D" parent="." unique_id=539004784]
+transform = Transform3D(22.95655, 0, 0, 0, 0.60136557, 0, 0, 0, 8.8620205, -0.81181145, 6.4090567, -24.226406)
+use_collision = true
+
+[node name="Boxsilver1" type="CSGBox3D" parent="." unique_id=372114957]
+transform = Transform3D(22.95655, 0, 0, 0, 0.60136557, 0, 0, 0, 8.8620205, -0.81181145, 2.014738, -24.226406)
+use_collision = true
+
+[node name="Boxsilver2" type="CSGBox3D" parent="." unique_id=387087363]
+transform = Transform3D(22.95655, 0, 0, 0, 0.4025325, 6.5839014, 0, -0.4467753, 5.9319177, -0.81181145, 10.176926, -26.000282)
+use_collision = true
+
+[node name="Boxbrown" type="CSGBox3D" parent="." unique_id=1496215761]
+transform = Transform3D(22.584805, 0, 0, 0, 0.49864995, 5.745668, 0, -0.5277318, 5.42904, -0.81181145, 9.778326, -25.892069)
+use_collision = true
