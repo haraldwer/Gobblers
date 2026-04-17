@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://0ssvmmhtyau7"]
+
+[ext_resource type="Script" uid="uid://bi4ad68fhuff" path="res://enemy/enemy.gd" id="1_2mvqj"]
+[ext_resource type="SpriteFrames" uid="uid://khxycby31rb0" path="res://enemy/anim_walk.tres" id="2_ofsxj"]
+[ext_resource type="Script" uid="uid://bwnodxwuj1gu6" path="res://enemy/billboard.gd" id="3_ppra6"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_scxef"]
+
+[node name="Enemy" type="CharacterBody3D" unique_id=2108629904]
+script = ExtResource("1_2mvqj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1246086249]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+shape = SubResource("CapsuleShape3D_scxef")
+
+[node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="." unique_id=338570317]
+transform = Transform3D(2.9983335, 0, 0, 0, 5.8036013, 0, 0, 0, 1, 0, 1.0201882, 0)
+sprite_frames = ExtResource("2_ofsxj")
+script = ExtResource("3_ppra6")

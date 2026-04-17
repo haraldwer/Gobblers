@@ -20,6 +20,10 @@ config/icon="res://icon.svg"
 window/size/viewport_width=1600
 window/size/viewport_height=900
 
+[global_group]
+
+Player=""
+
 [input]
 
 move_forward={
@@ -78,6 +82,10 @@ look_left={
 "events": [Object(InputEventJoypadMotion,"resource_local_to_scene":false,"resource_name":"","device":-1,"axis":2,"axis_value":-1.0,"script":null)
 ]
 }
+
+[physics]
+
+common/physics_ticks_per_second=300
 
 [rendering]
 
