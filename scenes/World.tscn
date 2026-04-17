@@ -15,16 +15,16 @@ use_collision = true
 size = Vector3(95.78705, 1, 43.15973)
 
 [node name="CharacterBody3D" parent="." unique_id=114890276 instance=ExtResource("1_kqs1s")]
-transform = Transform3D(1.192488e-08, 0, -0.99999994, 0, 1, 0, 0.99999994, 0, 1.192488e-08, -149.63977, 17.736301, 61.401634)
+transform = Transform3D(1.192488e-08, 0, -0.99999994, 0, 1, 0, 0.99999994, 0, 1.192488e-08, 163.19925, 14.082363, 61.401634)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1648415794]
 environment = SubResource("Environment_kqs1s")
 
 [node name="Hall" parent="." unique_id=641597358 instance=ExtResource("2_32lhk")]
-transform = Transform3D(-7.127054e-08, 0, -2.558239, 0, 1.7394135, 0, 1.6304802, 0, -1.1182417e-07, -83.884155, 14.746176, 59.892784)
+transform = Transform3D(-7.127054e-08, 0, -2.558239, 0, 1.7394135, 0, 1.6304802, 0, -1.1182417e-07, -84.73458, 13.759546, 56.76602)
 
 [node name="TreasureRoom" parent="." unique_id=413560569 instance=ExtResource("3_d1c63")]
-transform = Transform3D(-5.0470852e-08, 0, -1.2597482, 0, 1.330201, 0, 1.1546385, 0, -5.5065343e-08, 167.84668, 10.570873, 61.81183)
+transform = Transform3D(-5.0470852e-08, 0, -1.2597482, 0, 1.330201, 0, 1.1546385, 0, -5.5065343e-08, 154.00847, 6.607465, 59.949844)
 
 [node name="Corridor" parent="." unique_id=1232838882 instance=ExtResource("4_1lgw5")]
-transform = Transform3D(-5.1959184e-08, 0, -1.7576276, 0, 1.4136052, 0, 1.1886876, 0, -7.682834e-08, 75.07894, 10.404194, 61.4161)
+transform = Transform3D(-5.3703324e-08, 0, -1.7576276, 0, 1.4136052, 0, 1.2285889, 0, -7.682834e-08, 74.05683, 7.6003113, 61.4161)
